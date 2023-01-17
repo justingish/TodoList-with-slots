@@ -1,47 +1,19 @@
-# Todo
+# Challenge Details:
 
-This template should help get you started developing with Vue 3 in Vite.
+I want you to build a brand new Todo List Vue 3 app from scratch (You can use the cli but don’t use a boilerplate app or anything). I recommend doing it in Vite, but you can use whatever build tools you want. I’m not concerned about the styles, so you can do as much or as little CSS work as you want.
 
-## Recommended IDE Setup
+The requirements of a simple Todo App are:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Ability to add an item to your todo list (typically using some kind of text input)
+- Ability to complete an item
+- Ability to delete an item
 
-## Type Support for `.vue` Imports in TS
+Here are some additional requirements specifically for this challenge:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- The components should all use the Composition API and be created using the script setup syntax.
+- It should use proper TS types.
+- Your TodoList component should allow a slot to override the individual TodoItem components. This is a bit of a contrived problem, but I think it’s important for us all to get more experience working with Slots since Vuetify uses them extensively.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+I know everyone is busy, but please take some time to do this challenge. I’ve had many questions from devs over the last few weeks that show that we haven’t really learned the basics of how to use Vue3 especially with TS, so even if this seems basic, I need you to do it.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-# TodoList-with-slots
+I don’t expect this to take a ton of time. If you find that you are spending many hours on it, reach out to the group for help. I want everyone to finish this before the end of next week. Everyone should be able to find a little time in the next week and a half to do this.
